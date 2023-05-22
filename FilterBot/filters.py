@@ -279,7 +279,7 @@ async def give_filter(client,message):
                         if btn == "[]":
                             if AUTO_DELETE:
                                 delete = await client.send_message(group_id, reply_text, disable_web_page_preview=True, reply_to_message_id=reply_id)
-                                await asyncio.sleep(AUTO_DELETE_SECOND)
+                                await asyncio.sleep(30)
                                 await delete.delete()
                             else:
                                 await client.send_message(group_id, reply_text, disable_web_page_preview=True, reply_to_message_id=reply_id)
@@ -294,7 +294,7 @@ async def give_filter(client,message):
                                     reply_markup=InlineKeyboardMarkup(button),
                                     reply_to_message_id=reply_id
                                 )
-                                await asyncio.sleep(AUTO_DELETE_SECOND)
+                                await asyncio.sleep(30)
                                 await delete.delete()
                             else:
                                 button = eval(btn)
@@ -313,7 +313,7 @@ async def give_filter(client,message):
                                 caption=reply_text or "",
                                 reply_to_message_id=reply_id
                             )
-                            await asyncio.sleep(AUTO_DELETE_SECOND)
+                            await asyncio.sleep(30)
                             await delete.delete()
                         else:
                             await client.send_cached_media(
