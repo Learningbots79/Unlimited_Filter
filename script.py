@@ -34,8 +34,8 @@ HelpTxT = ▸ ᴀᴅᴅ ᴛʜɪꜱ ʙᴏᴛ ᴀꜱ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ
 
 AboutTxT = """
 ⭕️ My Name : TroJanz Filter Bot</b>
-⭕️ Developers : @TroJanzHEX 
-⭕️ Upgrader : @learnibgbots79
+⭕️ Developers : @Prince0_66
+⭕️ Upgrader : @M__B Backup
 ⭕️ Language : Python3
 ⭕️ Library : <a href='https://docs.pyrogram.org/'>Pyrogram 2.0.102</a> 
 """
